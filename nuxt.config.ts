@@ -12,10 +12,9 @@ export default defineNuxtConfig({
     css: {
       preprocessorOptions: {
         scss: {
-          additionalData: [
-              `@use "${join(currentDir, './assets/styles/global.scss')}" as *;`,
-            `@use "${join(currentDir, './assets/styles/theme.scss')}" as *;`
-          ],
+          additionalData:
+              `@use "${join(currentDir, './assets/styles/global.scss')}" as *;
+               @use "${join(currentDir, './assets/styles/theme.scss')}" as *;`,
         },
       },
     },
