@@ -13,8 +13,7 @@ export default defineNuxtConfig({
       preprocessorOptions: {
         scss: {
           additionalData:
-              `@use "${join(currentDir, './assets/styles/global.scss')}" as *;
-               @use "${join(currentDir, './assets/styles/theme.scss')}" as *;`,
+              `@use "${join(currentDir, './assets/styles/global.scss')}" as *;`,
         },
       },
     },
