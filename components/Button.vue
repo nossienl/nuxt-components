@@ -31,7 +31,7 @@ const props = defineProps({
 
 <style lang="scss">
 $button-color: #000 !default;
-$button-color-hover: #fff !default
+$button-color-hover: #fff !default;
 $button-background-color: #fff !default;
 $button-background-color-hover: #000 !default
 $button-border-color: #000 !default;
