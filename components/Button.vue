@@ -35,7 +35,7 @@ $button-color-hover: #fff !default
 $button-background-color: #fff !default;
 $button-background-color-hover: #000 !default
 $button-border-color: #000 !default;
-$button-border-color-hover: #000 !default
+$button-border-color-hover: #000 !default;
 $button-border-width: 1px !default;
 $button-border-style: solid !default
 
