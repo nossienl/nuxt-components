@@ -30,14 +30,14 @@ const props = defineProps({
 </script>
 
 <style lang="scss">
-$button-color: #000;
-$button-color-hover: #fff;
-$button-background-color: #fff;
-$button-background-color-hover: #000;
-$button-border-color: #000;
-$button-border-color-hover: #000;
-$button-border-width: 1px;
-$button-border-style: solid;
+$button-color: #000 !default;
+$button-color-hover: #fff !default
+$button-background-color: #fff !default;
+$button-background-color-hover: #000 !default
+$button-border-color: #000 !default;
+$button-border-color-hover: #000 !default
+$button-border-width: 1px !default;
+$button-border-style: solid !default
 
 .button {
   cursor: pointer;
