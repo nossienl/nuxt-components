@@ -1,8 +1,8 @@
 <template>
   <component
       :is="to ? NuxtLink : href ? 'a' : 'button'"
-      :to="to"
-      :href="href"
+      :to="to ? to : null"
+      :href="href ? href : null"
       class="button"
       :class="[isSmall && 'is--small']"
       v-on:@click="$emit('click')"

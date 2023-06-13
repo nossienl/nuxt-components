@@ -11,8 +11,6 @@
     <Button to="/">NuxtLink</Button>
     <Button href="//google.com">Google.com</Button>
 
-
-
     <Counter />
   </div>
 </template>
