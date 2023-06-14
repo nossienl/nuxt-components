@@ -9,6 +9,7 @@
     "prepare": "nuxt prepare"
   },
   "devDependencies": {
+    "gsap": "^3.12.1",
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-brands-svg-icons": "^6.4.0",
     "@fortawesome/vue-fontawesome": "^3.0.3",
@@ -16,7 +17,6 @@
     "nuxt": "^3.5.2"
   },
   "dependencies": {
-    "gsap": "^3.12.1",
     "sass": "^1.63.3",
     "typescript": "^5.0.4"
   }

@@ -13,6 +13,7 @@
 
 <script setup>
 import {NuxtLink} from "#components";
+const { $gsap: gsap, $Draggable: Draggable } = useNuxtApp();
 const props = defineProps({
   to: {
     type: String,
