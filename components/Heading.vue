@@ -1,6 +1,9 @@
 <template>
   <component :is="`h${level}`">
    <slot></slot>
+    <font-awesome-icon icon="fa-brands fa-twitter-square" />
+    <font-awesome-icon icon="fa-brands fa-youtube-square" />
+    <font-awesome-icon icon="fa-brands fa-github-square" />
   </component>
 </template>
 
