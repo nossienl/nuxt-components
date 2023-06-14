@@ -1,6 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  modulesDir: [
+    './node-modules'
+  ],
   build: {
     transpile: [
       '@fortawesome/vue-fontawesome',
