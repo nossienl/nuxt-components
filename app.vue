@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="min-height: 200vh">
     <Heading level="1">The quick brown fox</Heading>
     <Heading level="2">The quick brown fox</Heading>
     <Heading level="3">The quick brown fox</Heading>
@@ -12,5 +12,7 @@
     <Button href="//google.com">Google.com</Button>
 
     <Counter />
+
+    <Boxes />
   </div>
 </template>
